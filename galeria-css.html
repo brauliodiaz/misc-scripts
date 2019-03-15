@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplo Galería</title>
+        <!-- Bootstrap CSS -->
+        <link href="resources/bootstrap/bootstrap.min.css" rel="stylesheet">
+         <!-- Custom style from template -->
+        <link href="resources/freelancer/freelancer.css"  rel="stylesheet">
+        <link href="resources/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="resources/css/galeria.css" rel="stylesheet" type="text/css">
+        <link href="resources/css/galeria2.scss" rel="stylesheet" type="text/css">
+        <link href="resources/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+      
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    </head>
+    
+    <body>
+    
+        <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav" style="height: 75px">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">@Example</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="quiensoy.html">Submenu1</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="portafolio.html">Submenu2</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="eventos.html">Submenu3</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="contacto.html">Submenu4</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="m-p-g">
+        <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+          <img src="img/galeria/image1.jpg" data-full="img/galeria/image1.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image2.jpg" data-full="img/galeria/image2.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image3.jpg" data-full="img/galeria/image3.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image4.jpg" data-full="img/galeria/image4.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image5.jpg" data-full="img/galeria/image5.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image6.jpg" data-full="img/galeria/image6.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image7.jpg" data-full="img/galeria/image7.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image8.jpg" data-full="img/galeria/image8.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image9.jpg" data-full="img/galeria/image9.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image10.jpg" data-full="img/galeria/image10.jpg" class="m-p-g__thumbs-img" />
+          <img src="img/galeria/image11.jpg" data-full="img/galeria/image11.jpg" class="m-p-g__thumbs-img" />
+         
+        </div>
+      
+        <div class="m-p-g__fullscreen"></div>
+      </div>
+      
+      <script>
+        var elem = document.querySelector('.m-p-g');
+      
+        document.addEventListener('DOMContentLoaded', function() {
+          var gallery = new MaterialPhotoGallery(elem);
+        });
+      </script> 
+      <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
+    </header>
+        
+
+       
+        <script src="resources/jquery/jquery.min.js"></script>
+        <script src="resources/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="resources/js/galeria.js"></script>
+       
+    </body>
+</html>
